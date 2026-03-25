@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gray-50 text-gray-900;
+  }
+}
+
+.school-gradient {
+  @apply bg-gradient-to-r from-school-primary to-school-secondary;
+}
+
+.btn-primary {
+  @apply bg-school-primary text-white px-6 py-2 rounded-lg font-semibold hover:bg-school-secondary transition-all;
+}
+
+.btn-accent {
+  @apply bg-school-accent text-school-secondary px-6 py-2 rounded-lg font-semibold hover:bg-yellow-500 transition-all;
+}
+
+@keyframes marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.animate-marquee {
+  display: flex;
+  width: max-content;
+  animation: marquee 30s linear infinite;
+}
