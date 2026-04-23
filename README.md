@@ -62,7 +62,7 @@ This project aims to digitize school operations by providing a centralized platf
 
 ### 🔽 Clone Repository
 
-git clone https://github.com/your-username/school-website.git
+git clone https://github.com/dan-crud/school_website.git
 
 ### 📦 Install Dependencies
 
@@ -140,8 +140,8 @@ DELETE /api/notices/:id → Delete notice
 ## 👨‍💻 Author
 
 Your Name
-GitHub: https://github.com/your-username
-LinkedIn: (Add your profile)
+GitHub: https://github.com/dan-crud
+LinkedIn: www.linkedin.com/in/danshahi
 
 ---
 
